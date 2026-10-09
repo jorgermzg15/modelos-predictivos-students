@@ -1,11 +1,12 @@
 [project]
 name = "modelos-predictivos-students"
 version = "0.1.0"
-description = "Hands-on lab de Regresión Lineal (versión para estudiantes)."
+description = "Laboratorios de Modelos Predictivos (versión para estudiantes)."
 readme = "README.md"
 requires-python = "==3.14.*"
 dependencies = [
     "ipykernel>=7.3.0",
+    "matplotlib>=3.11.2",
     "nbformat>=5.11.1",
     "numpy>=2.5.3",
     "pandas>=3.0.6",
