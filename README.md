@@ -13,15 +13,15 @@ Hands-on lab template for the Linear Regression class. Follow along with the ins
 - `02-regresion-logistica/caso_titanic.ipynb`: 🎯 Hands-on lab — who survived the Titanic: imputation, odds ratios, confusion matrix, precision/recall, decision threshold and ROC/AUC
 - `02-regresion-logistica/slides/`: Logistic regression infographic
 
-**Session 3 — KNN**
-- `03-knn/fundamentos.ipynb`: Theory — euclidean distance, why scaling is mandatory, the role of k
-- `03-knn/caso_mpg.ipynb`: 🎯 KNN regression on the MPG case
-- `03-knn/caso_titanic.ipynb`: 🎯 KNN classification on the titanic case
+**Session 3 — Decision trees**
+- `03-arboles/fundamentos.ipynb`: Theory — binary splits, impurity, pruning, feature importance
+- `03-arboles/caso_mpg.ipynb`: 🎯 Regression tree on the MPG case
+- `03-arboles/caso_titanic.ipynb`: 🎯 Classification tree on the titanic case
 
-**Session 4 — Decision trees**
-- `04-arboles/fundamentos.ipynb`: Theory — binary splits, impurity, pruning, feature importance
-- `04-arboles/caso_mpg.ipynb`: 🎯 Regression tree on the MPG case
-- `04-arboles/caso_titanic.ipynb`: 🎯 Classification tree plus the course wrap-up
+**Session 4 — KNN** (asynchronous)
+- `04-knn/fundamentos.ipynb`: Theory — euclidean distance, why scaling is mandatory, the role of k
+- `04-knn/caso_mpg.ipynb`: 🎯 KNN regression on the MPG case
+- `04-knn/caso_titanic.ipynb`: 🎯 KNN classification plus the course wrap-up
 
 From session 3 on, the data arrives already prepared through `cargar_*()` / `preparar_*()`, with the same
 split you built by hand in sessions 1 and 2, so results stay comparable across models.
